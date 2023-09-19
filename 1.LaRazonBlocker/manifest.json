@@ -1,0 +1,15 @@
+{
+    "manifest_version":3,
+    "name":"Blocker Simulator",
+    "version":"1.0.0",
+    "content_scripts":[
+        {
+            "matches":[
+                "https://www.la-razon.com/*"
+            ],
+            "js":[
+                "loader.js"
+            ]
+        }
+    ]
+}
