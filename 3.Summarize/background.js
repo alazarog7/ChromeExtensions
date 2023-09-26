@@ -12,7 +12,7 @@ async function sendToGpt(command,text){
     try {
         var myHeaders = new Headers();
         myHeaders.append("Content-Type", "application/json");
-        myHeaders.append("Authorization", "Bearer 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");
+        myHeaders.append("Authorization", "Bearer api-key");
 
         var raw = JSON.stringify({
             "model": "gpt-3.5-turbo",
