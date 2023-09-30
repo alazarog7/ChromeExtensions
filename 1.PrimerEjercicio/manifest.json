@@ -4,9 +4,13 @@
     "version":"1.0.0",
     "content_scripts":[
         {
-            "matches":["https://www.la-razon.com/"],
+            "matches":["https://www.la-razon.com/*"],
             "js":["inicio.js"],
             "css":["inicio.css"]
         }
-    ]
+    ],
+    "action":{
+        "default_title":"Extension title",
+        "default_popup":"index.html"
+    }
 }
