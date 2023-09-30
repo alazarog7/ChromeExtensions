@@ -8,7 +8,10 @@
                 "https://www.la-razon.com/*"
             ],
             "js":[
-                "loader.js"
+                "darkThemeHandler.js"
+            ],
+            "css":[
+                "extensionStyles.css"
             ]
         }
     ]

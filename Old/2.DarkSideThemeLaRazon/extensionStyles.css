@@ -1,0 +1,12 @@
+#theme-switch{
+    position:fixed;
+	width:60px;
+	height:60px;
+	top:120px;
+    right: 40px;
+	background-color:rgb(204, 0, 61);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
